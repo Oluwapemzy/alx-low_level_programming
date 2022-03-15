@@ -2,9 +2,19 @@
 #include <ctype.h>
 /**
  *_islower - check code
+ *@c : integer
  *Retun: type int
  */
 int _islower(int c)
 {
-return (islower(c));
+int value;
+if (islower(c))
+{
+value = 1;
+}
+else
+{
+value = 0;
+}
+return (value);
 }

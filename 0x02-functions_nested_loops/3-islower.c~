@@ -1,9 +1,0 @@
-#include "main.h"
-/**
- *_islower - check code
- *Retun: type int
- */
-int _islower(int c)
-{
-return (islower(c));
-}
