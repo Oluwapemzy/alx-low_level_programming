@@ -3,7 +3,7 @@
 /**
  *_islower - check code
  *@c : integer
- *Retun: type int
+ *Return: type int
  */
 int _islower(int c)
 {
