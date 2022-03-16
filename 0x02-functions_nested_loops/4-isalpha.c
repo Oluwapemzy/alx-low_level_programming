@@ -1,7 +1,9 @@
 #include "main.h"
-#include <ctype.h>                                /**
- *_isalpha - check code
- *@c : integer                                     *Return: type int
+#include <ctype.h>
+/**
+ * _isalpha- check if chatacter is isalpha
+ *@c : integer
+ *Return: type int
  */
 int _isalpha(int c)
 {
