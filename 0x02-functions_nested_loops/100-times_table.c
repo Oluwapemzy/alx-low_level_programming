@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *times_table-print time table
+ *print_times_table-print time table
+ *@n:integer
  *Return: void
  */
 void print_times_table(int n)
@@ -11,10 +12,8 @@ if (n > 15 || n < 0)
 else
 {
 int loop1, loop2, d;
-for (loop1 = 0; loop1 <=n; loop1++)
-/*_putchar('0');
-_putchar(',');
-_putchar(' ');*/
+for (loop1 = 0; loop1 <= n; loop1++)
+{
 for (loop2 = 0; loop2 <= n; loop2++)
 {
 d = loop1 * loop2;
@@ -39,5 +38,5 @@ _putchar('\n');
 }
 _putchar('\n');
 }
-/*_putchar('\n');*/
+}
 }
