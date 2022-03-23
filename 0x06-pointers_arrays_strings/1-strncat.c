@@ -5,7 +5,7 @@
  *@dest: destination
  *@src: source of concat
  *@n: number of string from src to concat
- *Return: char 
+ *Return: char
  */
 char *_strncat(char *dest, char *src, int n)
 {
