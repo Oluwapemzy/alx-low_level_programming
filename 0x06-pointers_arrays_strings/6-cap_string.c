@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  *cap_string- capitalize first letter of words in a string
- *@str: type char
+ *@s: type char
  *Return: type char
  */
 char *cap_string(char *s)
