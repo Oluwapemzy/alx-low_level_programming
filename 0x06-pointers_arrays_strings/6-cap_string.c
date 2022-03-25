@@ -8,12 +8,12 @@
 char *cap_string(char *str)
 {
 int i, j;
-char punctuation[] = {'\t', '\n', '.', ';', ',', '!', '?', '"', '(', ' ', ')', '{', '}'};
+char p[] = {'\t', '\n', '.', ';', ',', '!', '?', '"', '(', ' ', ')', '{', '}'};
 for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; j < 13; j++)
 {
-if (str[i] == punctuation[j])
+if (str[i] == p[j])
 {
 str[i + 1] = toupper(str[i + 1]);
 }
