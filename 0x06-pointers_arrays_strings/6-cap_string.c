@@ -15,9 +15,9 @@ for (j = 0; j < 13; j++)
 {
 if (str[i] == punctuation[j])
 {
-str[i+1] = toupper(str[i+1]);
+str[i + 1] = toupper(str[i + 1]);
 }
 }
 }
-return str;
+return (str);
 }
