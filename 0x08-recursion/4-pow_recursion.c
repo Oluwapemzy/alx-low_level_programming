@@ -3,6 +3,7 @@
  *_pow_recursion- finds x raise to power y
  *@x: base that is subscript
  *@y: power that is superscript
+ *Return: returns integer
  */
 int _pow_recursion(int x, int y)
 {
