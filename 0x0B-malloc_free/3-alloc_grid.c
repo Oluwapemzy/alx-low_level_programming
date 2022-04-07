@@ -27,7 +27,7 @@ if (ar[i] == NULL)
 free(ar);
 for (j = 0; j <= i; j++)
 {
-free((ar[j]));
+free(ar[j]);
 return (NULL);
 }
 }
