@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
 * string_nconcat - len of 1st str, len of 2nd str, if n < 2nd, 2nd = n
- * 2nd + 1st = total len, malloc + null byte, loop to insert into temp arr
  * @s1: input one
  * @s2: input two
  * @n: s2's number of bytes
@@ -12,10 +11,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *s3;
 unsigned int len1, len2, i, j;
-len1 = 0;
-len2 = 0;
-i = 0;
-j = 0;
+len1 = len2 = i = j = 0;
 if (s1 == NULL)
 {
 s1 = "";
