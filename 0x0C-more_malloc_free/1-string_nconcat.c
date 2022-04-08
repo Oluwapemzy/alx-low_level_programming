@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
-* string_nconcat - len of 1st str, len of 2nd str, if n < 2nd, 2nd = n
+* string_nconcat - len of 1st str, len of 2nd str, i
  * @s1: input one
  * @s2: input two
  * @n: s2's number of bytes
@@ -20,14 +21,8 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-while (s2 && s2[len2])
-{
-len2++;
-}
-while (s1 && s1[len1] != '\0')
-{
-len1++;
-}
+len1 = strlen(s1);
+len2 = strlen(s2);
 if (n < len2)
 {
 s3 = malloc(sizeof(char) * (len1 + n + 1));
