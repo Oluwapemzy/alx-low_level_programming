@@ -14,13 +14,12 @@ va_list ap;
 va_start(ap, n);
 for (i = 0; i < n; i++)
 {
-if (separator && i == n - 1)
-{
 printf("%d", va_arg(ap, int));
-putchar('\n');
-return;
+if (separator && i < n - 1)
+{
+printf("%s", separator);
 }
-printf("%d%s", va_arg(ap, int), separator);
+}
+printf("\n");
 va_end(ap);
-}
 }
