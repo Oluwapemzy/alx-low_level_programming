@@ -3,7 +3,7 @@
  *add_nodeint - add node to the beginning of list
  *@head: start of list
  *@n: value to add
- *Return : address of new element
+ *Return: type listint_t address of new element
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
