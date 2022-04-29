@@ -13,6 +13,6 @@ if (sizeof(n) * 8 < index)
 return (-1);
 }
 x <<= index;
-*n |=x;
+*n |= x;
 return (1);
 }
