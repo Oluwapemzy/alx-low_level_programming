@@ -28,7 +28,7 @@ return (0);
 rd = read(fd, buf, letters);
 if (rd < 0)
 {
-free (buf);
+free(buf);
 return (0);
 }
 buf[letters] = '\0';
