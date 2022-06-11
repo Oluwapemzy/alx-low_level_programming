@@ -10,7 +10,6 @@ int i;
 size_t len = 0;
 for (i = 0; h; i++)
 {
-printf("%d\n", h->n);
 h = h->next;
 len++;
 }
